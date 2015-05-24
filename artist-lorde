@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<title>TOTALLYNOTLASTFMtrustme</title>
+		
+		<meta 
+			charset="utf-8"
+		/>
+		
+		<meta 
+			name="viewport" 
+			content="width=device=width, initial-scale=1" 
+		/>
+		
+		<link 
+			rel="stylesheet" 
+			href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"
+		>
+		
+		<link 
+			href="https://github.com/IanLunn/Hover/blob/master/css/hover.css" 
+			rel="stylesheet"
+		>
+
+		<script 
+			src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">
+		</script>
+		
+		<script 
+			src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js">
+		</script>
+
+		<style>
+			div.title {
+				background-color: #222222;
+				width: 101%;
+				height: 75px;
+			}
+
+			
+			p.title {
+				position: absolute;
+				left: 30%;
+				top: -20px;
+				color: #A9A9AB;
+				font-size:50px;
+				padding-top: 30px;
+				font-family: Roboto Thin;
+				src: url ("fonts");
+			}
+			
+
+			.goodstuff {
+				background-color: #222222;
+				width: 66%;
+				height: 1800px;
+				position: fixed;
+				left: 16%;
+
+			}
+
+			p.heading {
+				color: #A9A9AB;
+				font-size: 50px;
+				padding-top: 5px;
+				font-family: Roboto Thin;
+				src: url("fonts");
+
+			}
+
+			body {
+				background-image:url("http://wundergroundmusic.com/wp-content/uploads/2014/01/Dj_Mixing_Table_Pulsarmedia_Wallpaper-750x400.jpg");	
+				background-size:90%, 100%;
+			}
+			
+			.artist {
+				
+				width:195px;
+				height:390px;
+				object-fit: cover;
+				float: left;
+				margin: 20px;
+				border:5px;
+				border-style: solid;
+				border-color: #A9A9AB;
+				
+			}
+		</style>
+	</head>
+	
+	<body>
+		
+		<div class="title">
+			<p class="title">
+				TOTALLYNOT-LASTFM
+			</p>
+
+		</div>
+
+		<nav class="navbar navbar-inverse">
+			<div>
+				<ul class="nav navbar-nav ">
+					<li class="active ">
+						<a href="index.html">
+							NEW
+						</a>
+					</li>
+					
+					<li class="active">
+						<a href="album.html">
+							ALBUM
+						</a>
+					</li>
+					
+					<li class="active">
+						<a href="">
+							ARTISTS
+						</a>
+					</li>
+					
+					<li class="active">
+						<a href="">
+							RECOMMENDATION
+						</a>
+					</li>
+				</ul>
+			</div>
+			
+			<div>
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active">
+						<a href="">
+							LOG IN
+						</a>					
+					</li>
+				</ul>
+			</div>
+		</nav>
+		
+		<div class="goodstuff">
+			<img class="artist" src="http://lolp2.c3cdn.com/wp/wp-content/uploads/2014/03/Lorde_PhotoBy_CharlesHowells_6.jpg" alt="Lorde">
+			<p class="heading">
+				LORDE
+			</p>
+		</div>
+			
+	</body>
+
+</html>
